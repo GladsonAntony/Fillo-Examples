@@ -14,8 +14,17 @@ public class Test2_UpdateExample
     {
         Fillo fillo=new Fillo();
         Connection connection=fillo.getConnection(ProjectWorkingDirectory+"/src/test/resources/UpdateExample.xlsx");
-        String strQuery="UPDATE SHEET1 SET COUNTRY = 'Niiue' where ID='7'";
+        String strQuery=" Update Sheet1 Set Country='Niiue' where ID='7' ";
         connection.executeUpdate(strQuery);
+
+        Recordset recordset=connection.executeQuery("Select Country From Sheet1");
+        for (int i=0; i<7; i++)
+        {
+            recordset.next();
+        }
+        System.out.println(recordset.getField(0).value());
+        recordset.close();
+
         connection.close();
     }
 
@@ -24,8 +33,17 @@ public class Test2_UpdateExample
     {
         Fillo fillo=new Fillo();
         Connection connection=fillo.getConnection(ProjectWorkingDirectory+"/src/test/resources/UpdateExample.xlsx");
-        String strQuery="UPDATE SHEET1 SET COUNTRY = 'Niue' where ID='7'";
+        String strQuery=" Update Sheet1 Set Country='Niue' where ID='7' ";
         connection.executeUpdate(strQuery);
+
+        Recordset recordset=connection.executeQuery("Select Country From Sheet1");
+        for (int i=0; i<7; i++)
+        {
+            recordset.next();
+        }
+        System.out.println(recordset.getField(0).value());
+        recordset.close();
+
         connection.close();
     }
 }
