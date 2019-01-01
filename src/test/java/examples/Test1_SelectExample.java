@@ -5,7 +5,7 @@ import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
 import org.testng.annotations.Test;
 
-public class SelectExample
+public class Test1_SelectExample
 {
    public static String ProjectWorkingDirectory = System.getProperty("user.dir");
 
@@ -79,5 +79,4 @@ public class SelectExample
         recordset.close();
         connection.close();
     }
-
 }
