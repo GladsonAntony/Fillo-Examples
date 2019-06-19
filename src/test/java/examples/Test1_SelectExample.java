@@ -49,7 +49,7 @@ public class Test1_SelectExample
     {
         Fillo fillo=new Fillo();
         Connection connection=fillo.getConnection(ProjectWorkingDirectory+"/src/test/resources/SelectExample.xlsx");
-        String strQuery="Select * from Sheet1 where country like '%IN%'";
+        String strQuery="Select * from Sheet1 where country like 'IN%'";
         Recordset recordset=connection.executeQuery(strQuery);
 
         while(recordset.next())
