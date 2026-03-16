@@ -138,7 +138,7 @@ Contributions are welcome! If you have improvements or additional examples:
 This project is provided as an example for learning and experimentation purposes. Please refer to the Fillo library’s official license for usage terms.
 
 ---
-👤 Author:  [ GladsonAntony | https://github.com/GladsonAntony]
+👤 Author:  [GladsonAntony](https://github.com/GladsonAntony)
 
 
 ⭐ If you find this repository useful, consider starring it on GitHub
