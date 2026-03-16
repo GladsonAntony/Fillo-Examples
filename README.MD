@@ -9,11 +9,11 @@ This repository demonstrates how to use Codoid's Fillo—an Excel API for Java�
 ---
 
 ## 📌 <u> Why Use Fillo? </u>
-- SQL Syntax: Fillo allows you to treat Excel sheets like database tables. Using simple SQL syntax. Use `SELECT`, `UPDATE`, and `INSERT` queries directly on Excel sheets.
+- **SQL Syntax:** Fillo allows you to treat Excel sheets like database tables. Using simple SQL syntax. Use `SELECT`, `UPDATE`, and `INSERT` queries directly on Excel sheets.
 
-- No Coordinate Mapping: No need to track `row[i]` and `column[j]`. Just use column headers as field names.
+- **No Coordinate Mapping:** No need to track `row[i]` and `column[j]`. Just use column headers as field names.
 
-- Simplified Data-Driven Testing: Ideal for Selenium or API automation frameworks where test data is managed in Excel.
+- **Simplified Data-Driven Testing:** Ideal for Selenium or API automation frameworks where test data is managed in Excel.
 
 ---
 ## 🗂️ <u> Project Structure </u>
@@ -30,9 +30,9 @@ Fillo-Examples
 ```
 
 
-src/test: Contains example Java/TestNG classes demonstrating Fillo usage
-pom.xml: Maven configuration with Fillo and TestNG dependencies
-README.MD: Project documentation
+- **src/test:** Contains example Java/TestNG classes demonstrating Fillo usage
+- **pom.xml:** Maven configuration with Fillo and TestNG dependencies
+- **README.MD:** Project documentation
 
 ---
 
@@ -111,7 +111,7 @@ __Prerequisites__
 
 - Clone the repository:
 ```sh
-git clone https://github.com/GladsonAntony/Fillo-Examples.git
+    git clone https://github.com/GladsonAntony/Fillo-Examples.git
 ```
 
 - Import the project as a Maven project in your IDE. Let Maven download the required dependencies
@@ -142,3 +142,5 @@ This project is provided as an example for learning and experimentation purposes
 
 
 ⭐ If you find this repository useful, consider starring it on GitHub
+
+---
